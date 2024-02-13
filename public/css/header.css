@@ -1,0 +1,90 @@
+.header .logo {
+  position: absolute;
+  z-index: 1;
+  left: calc(50% - 75px);
+  top: 70px;
+}
+
+.header .logo img {
+  width: 150px;
+}
+
+.top-header {
+  padding: 12px 0px 8px 0px;
+  background: url(https://yensaokhanhhoa.com.vn/css/images/bg-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.top-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 40px;
+}
+
+.box-language {
+  display: flex;
+  align-items: center;
+}
+
+.box-language a {
+  border-right: 2px solid #004094;
+  padding: 0px 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 18px;
+  line-height: 18px;
+  color: #004094;
+}
+
+.box-language a:hover {
+  color: #fff200;
+}
+
+.box-language a:last-child {
+  border-right: none;
+}
+
+.mid-header {
+  display: flex;
+  position: relative;
+}
+
+.mid-header a {
+  padding: 14px 10px;
+  display: inline;
+  text-transform: uppercase;
+  color: #d7f6ff;
+  cursor: pointer;
+  font-size: 85%;
+  transition: all 0.3s;
+}
+
+.mid-header a:hover {
+  color: #fff200;
+}
+
+.mid-header .blank-container {
+  flex: 2;
+  background-color: #2663a7;
+}
+
+.mid-header .navbar-left,
+.mid-header .navbar-right {
+  display: flex;
+  flex: 5;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2663a7;
+}
+
+.mid-header .navbar-left {
+  padding-left: 20px;
+}
+
+.mid-header .navbar-right {
+  padding-right: 20px;
+}
